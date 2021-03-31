@@ -3,11 +3,14 @@ package com.example.fivebyfiveboxes;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Constraint extends AppCompatActivity implements View.OnClickListener {
+
+    Button button;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -17,6 +20,9 @@ public class Constraint extends AppCompatActivity implements View.OnClickListene
 
     @Override
     public void onClick(View view) {
-        Intent intent = new Intent(Constraint.this,Linear.class);
+
+                startActivity(new Intent(Constraint.this,Linear.class));
+
+
     }
 }

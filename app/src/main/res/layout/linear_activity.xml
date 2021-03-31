@@ -11,6 +11,7 @@
         
         <Button
             android:id="@+id/lin_one"
+            android:onClick="onClick"
             android:text="one"
             android:layout_weight="1"
             android:layout_width="wrap_content"
@@ -19,6 +20,7 @@
 
         <Button
             android:id="@+id/lin_two"
+            android:onClick="onClick"
             android:text="two"
             android:layout_weight="1"
             android:layout_width="wrap_content"
@@ -28,6 +30,7 @@
         <Button
             android:id="@+id/lin_three"
             android:text="three"
+            android:onClick="onClick"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -35,6 +38,7 @@
 
         <Button
             android:id="@+id/lin_four"
+            android:onClick="onClick"
             android:text="four"
             android:layout_weight="1"
             android:layout_width="wrap_content"
@@ -43,6 +47,7 @@
 
         <Button
             android:id="@+id/lin_five"
+            android:onClick="onClick"
             android:text="five"
             android:layout_weight="1"
             android:layout_width="wrap_content"
@@ -60,6 +65,7 @@
             android:id="@+id/lin_six"
             android:text="six"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorPrimary1"></Button>
@@ -68,6 +74,7 @@
             android:id="@+id/lin_seven"
             android:text="seven"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorAccent2"></Button>
@@ -76,6 +83,7 @@
             android:id="@+id/lin_eight"
             android:text="eight"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorPrimaryDark2"></Button>
@@ -84,6 +92,7 @@
             android:id="@+id/lin_nine"
             android:text="nine"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorAccent3"></Button>
@@ -92,6 +101,7 @@
             android:id="@+id/lin_ten"
             android:text="ten"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorPrimaryDark3"></Button>
@@ -105,8 +115,9 @@
 
         <Button
             android:id="@+id/lin_eleven"
-            android:text="11"
+            android:text="eleven"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorPrimary4"></Button>
@@ -115,6 +126,7 @@
             android:id="@+id/lin_twelve"
             android:text="twelve"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorAccent4"></Button>
@@ -123,6 +135,7 @@
             android:id="@+id/lin_thirteen"
             android:text="thirteen"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorPrimaryDark4"></Button>
@@ -131,6 +144,7 @@
             android:id="@+id/lin_fourteen"
             android:text="fourteen"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorAccent4"></Button>
@@ -139,6 +153,7 @@
             android:id="@+id/lin_fifteen"
             android:text="fifteen"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorPrimaryDark4"></Button>
@@ -155,6 +170,7 @@
             android:id="@+id/lin_sixteen"
             android:text="sixteen"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorPrimary5"></Button>
@@ -163,6 +179,7 @@
             android:id="@+id/lin_seventeen"
             android:text="seventeen"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorAccent5"></Button>
@@ -171,6 +188,7 @@
             android:id="@+id/lin_eighteen"
             android:text="eighteen"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorPrimaryDark5"></Button>
@@ -179,6 +197,7 @@
             android:id="@+id/lin_nineteen"
             android:text="nineteen"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorAccent6"></Button>
@@ -187,6 +206,7 @@
             android:id="@+id/lin_twenty"
             android:text="twenty"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorPrimaryDark6"></Button>
@@ -202,6 +222,7 @@
             android:id="@+id/lin_twentyone"
             android:text="twentyone"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorPrimary7"></Button>
@@ -210,6 +231,7 @@
             android:id="@+id/lin_twentytwo"
             android:text="twentytwo"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorAccent7"></Button>
@@ -218,6 +240,7 @@
             android:id="@+id/lin_twentythree"
             android:text="twentythree"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorPrimaryDark7"></Button>
@@ -226,6 +249,7 @@
             android:id="@+id/lin_twentyfour"
             android:text="twentyfour"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorAccent8"></Button>
@@ -234,6 +258,7 @@
             android:id="@+id/lin_twentyfive"
             android:text="twentyfive"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/colorPrimaryDark8"></Button>
